@@ -1,0 +1,12 @@
+let math = 75.25;
+console.log("Math:"+math);
+let biology = 65;
+console.log("Biology:"+biology);
+let chemistry = 80;
+console.log("Chemistry:"+chemistry);
+let physics = 35.45;
+console.log("Physics:"+physics);
+let bangla = 99.50;
+console.log("Bangla:"+bangla);
+let result = (math+ biology + chemistry + physics + bangla) / 5;
+console.log("Average mark is : " + (result.toFixed(2)));
