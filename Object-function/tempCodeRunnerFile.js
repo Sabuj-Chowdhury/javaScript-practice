@@ -1,1 +1,1 @@
-let abc = parseInt(a[i]);
+student
