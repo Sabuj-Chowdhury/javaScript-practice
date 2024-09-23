@@ -10,8 +10,28 @@
     <header>
       <h1>Hello DOM</h1>
     </header>
-    <main></main>
+    <main>
+      <p>eita holo main elements er paragraph tag</p>
+      <h1>Array Like h1</h1>
+      <ul>
+        <li>jani na ki</li>
+        <li>jani</li>
+        <li>na ki</li>
+        <li>nai</li>
+        <li>jani na ki</li>
+      </ul>
+      <section>
+        <h4>amar nam sabuj</h4>
+      </section>
+    </main>
     <footer></footer>
+    <script>
+      const h1collection = document.getElementsByTagName("h1");
+      // console.log(h1collection);
+      for (const h1 of h1collection) {
+        // console.log(h1.innerText);
+      }
+    </script>
     <script src="./dom.js"></script>
   </body>
 </html>
